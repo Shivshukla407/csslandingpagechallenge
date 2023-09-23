@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#nav{
+    height:90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+#navpart2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 34%;
+}
+#nav h1{
+    font-size: 25px;
+    color: red;
+    margin-left: 40px;
+}
+#nav h5{
+    font-size: 14px;
+    font-weight: 500px;
+   
+}
+#nav h6{
+    font-size: 14px;
+    font-weight: 500px;
+    margin-left: 50px;
+}
+#nav h4{
+    font-size: 14px;
+    font-weight: 500px;
+    margin-right: 50px;
+ 
+}
+#content{
+    width: 100%;
+    height: calc(100% - 90px);
+    position: absolute;
+    display: flex;
+    
+    
+}
+#part1{
+    height: 100%;
+    width: 40%;
+    
+    padding-top: 60px;
+    padding-left: 80px;
+}
+#part2{
+    height: 100%;
+    width: 30%;
+   
+   
+}
+#part3{
+    height: 100%;
+    width: 30%;
+    display: flex;
+   
+}
+#part1 h1{
+    font-size: 55px;
+   font-family: 'Times New Roman', Times, serif;
+    letter-spacing: -1px;
+    font-weight: 600;
+    
+    line-height: 45px;
+}
+#part1 span{
+   font-weight:550; 
+   color: red;
+}
+#part1 img{
+    height: 230px;
+    width: 180px;
+    margin-top: 50px;
+    position: absolute;
+}
+#inpartone{
+    position: absolute;
+    left: 275px;
+    top: 55%;
+   
+}
+#inpartone h2{
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 550;
+   line-height: 20px;
+   margin-bottom: 50px;
+}
+#inpartone h6{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+#part2 img{
+    height: 470px;
+    width: 340px;
+    margin-left: 60px;
+    
+   
+}
+#innerpart h1{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: 540;
+   line-height: 22px;
+   font-size: 25px;
+   margin-left: 120px;
+   margin-top: 40px;
+   justify-content: space-between;
+}
+#innerpart span{
+    color: red;
+}
+#part3 img{
+    height: 230px;
+    width: 180px;
+    margin-top: 100px;
+    position: absolute;
+    margin-left: 120px;
+}
